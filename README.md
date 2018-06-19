@@ -1,4 +1,7 @@
 # DICE.jl-notebooks
 Jupyter notebooks for working through [DICE.jl](https://github.com/Libbum/DICE.jl) examples.
-There's a lot of churn happening in the DICE.jl innards at the moment, so until that's settled, there wont be anything more than a simple 2013R Vanilla notebook here.
-It's functional and usable right now, but is engineered in quite a different manner than will exist in the near future.
+
+For the moment, only the v2013R (Vanilla Flavour) exists here, since it is the only version that has complete validation.
+
+The Rocky Road and 2016R beta versions can be used in exactly the same manner, but for the moment there is no comparative data available.
+Please see [this issue](https://github.com/Libbum/DICE.jl/issues/3) if you can help with running GAMS simulations.
