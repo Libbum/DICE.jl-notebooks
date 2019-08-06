@@ -339,7 +339,7 @@ solve CO2 maximizing UTILITY using nlp ;
 
 
 * Results
-SCC(T) = -1000*eeq.m(t)/yy.m(t);
+scc(T) = -1000*eeq.m(t)/yy.m(t);
 
 *Output File
 
