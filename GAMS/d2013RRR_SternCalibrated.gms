@@ -306,7 +306,7 @@ CPC.LO(t)      = .01;
 * Savings rate for asympotic equilibrium for last 10 periods
 set lag10(t) ;
 lag10(t) =  yes$(t.val gt card(t)-10);
-S.FX(lag10(t)) = optlrsav;
+* S.FX(lag10(t)) = optlrsav;
 
 *Initial Conditions
 CCA.FX(tfirst) = 90;
@@ -337,7 +337,10 @@ miu.fx("1")= 0.038976;
 tatm.fx("1")=0.83;
 
 RR(t)=1/((1+prstp)**(TSTEP*(ord(T)-1)));
-OPTLRSAV = (DK + .004)/(DK + .004*ELASMU + PRSTP)*GAMA;
+optlrsav = (DK + .004)/(DK + .004*ELASMU + PRSTP)*GAMA;
+
+* Fix for Stern savings rate bug
+S.FX(lag10(t)) = optlrsav;
 
 * Solve
 solve CO2 maximizing UTILITY using nlp ;

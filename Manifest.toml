@@ -71,7 +71,7 @@ version = "0.5.1"
 
 [[DICE]]
 deps = ["Ipopt", "JuMP"]
-git-tree-sha1 = "30d270f3f6549e7176cd53a1ed0f2f734c37766e"
+git-tree-sha1 = "a407c3944be3cbe2db79d989be2428e69f0dade4"
 repo-rev = "rrfix"
 repo-url = "https://github.com/Libbum/DICE.jl"
 uuid = "5657f6ae-35f0-11e9-2928-efd53eec249b"
