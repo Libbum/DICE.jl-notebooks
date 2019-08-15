@@ -26,6 +26,6 @@ Source code and output of each GAMS run can be found in the `GAMS` folder for yo
 
 ✔️   v2013R Vanilla and v2016R beta both see a 1:1 correspondence with the GAMS output, thus can be used interchangeably at present.
 
-❌  The v2013R Rocky Road version is currently undergoing verification, thus is not in a ready state for use.
+✔️  The v2013R Rocky Road version is also verified. There are a few deviations from 1:1 here, since GAMS is using truncated 32bit floats, whereas DICE.jl used 64bit floats. Additionally, there are bugs in the GAMS version of the `Stern` and `SternCalibrated` scenarios. We consider patched versions of both runs here, they can be found in the `GAMS` directory.
 
 ❌  v2016R2 is still in development, files here are solely here to aid in that process.
