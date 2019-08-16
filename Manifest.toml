@@ -70,9 +70,9 @@ uuid = "d38c429a-6771-53c6-b99e-75d170b6e991"
 version = "0.5.1"
 
 [[DICE]]
-deps = ["Ipopt", "JuMP"]
-git-tree-sha1 = "c5bb42cc094dbe5c77bc9e24da3677abb962125b"
-repo-rev = "master"
+deps = ["Ipopt", "JLD2", "JuMP"]
+git-tree-sha1 = "ec9d4ead9fb865572637c15ab19273a05140a8fd"
+repo-rev = "v2016R2_julia1_jump019"
 repo-url = "https://github.com/Libbum/DICE.jl"
 uuid = "5657f6ae-35f0-11e9-2928-efd53eec249b"
 version = "0.1.0"
