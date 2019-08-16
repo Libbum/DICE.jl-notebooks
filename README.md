@@ -1,5 +1,6 @@
 # DICE.jl-notebooks
-Jupyter notebooks for working through [DICE.jl](https://github.com/Libbum/DICE.jl) examples.
+
+Jupyter notebooks for working through [DICE.jl](https://github.com/Libbum/DICE.jl) scenarios.
 
 # Usage
 
@@ -28,4 +29,4 @@ Source code and output of each GAMS run can be found in the `GAMS` folder for yo
 
 ✔️  The v2013R Rocky Road version is also verified. There are a few deviations from 1:1 here, since GAMS is using truncated 32bit floats, whereas DICE.jl used 64bit floats. Additionally, there are bugs in the GAMS version of the `Stern` and `SternCalibrated` scenarios. We consider patched versions of both runs here, they can be found in the `GAMS` directory.
 
-❌  v2016R2 is still in development, files here are solely here to aid in that process.
+❌  v2016R2 is still in development, the files in the v2016R2 branch are here are solely here to aid in that process.
