@@ -83,7 +83,7 @@ version = "0.5.1"
 
 [[DICE]]
 deps = ["Ipopt", "JuMP"]
-git-tree-sha1 = "29b0834cf170148fa5b400687f062581b427633e"
+git-tree-sha1 = "1b3615eeaed4eaee24798a272a8b23e2d2d3bc19"
 repo-rev = "master"
 repo-url = "https://github.com/Libbum/DICE.jl"
 uuid = "5657f6ae-35f0-11e9-2928-efd53eec249b"
@@ -232,9 +232,9 @@ version = "0.20.1"
 
 [[LazyArrays]]
 deps = ["ArrayLayouts", "FillArrays", "LinearAlgebra", "MacroTools", "StaticArrays"]
-git-tree-sha1 = "4178993cd1c9570bca6dce62c84e73d85747fc85"
+git-tree-sha1 = "4f52d322d1904b66c8a402cc2bc1b6999a329f0b"
 uuid = "5078a376-72f3-5289-bfd5-ec5146d43c02"
-version = "0.14.3"
+version = "0.14.4"
 
 [[LibGit2]]
 uuid = "76f85450-5226-5b5a-8eaa-529ad045b433"
