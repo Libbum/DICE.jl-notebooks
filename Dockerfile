@@ -1,4 +1,9 @@
-# Adapted from https://github.com/jupyter/docker-stacks/blob/master/datascience-notebook/Dockerfile
+# To build and run this Dockerfile:
+# docker build -t myimage .
+# docker run -p 8000:8000 myimage
+
+# This Docker has been tested on x86 and ARM.
+# Originally adapted from: https://github.com/jupyter/docker-stacks/blob/master/datascience-notebook/Dockerfile
 
 FROM "jupyter/minimal-notebook"
 
