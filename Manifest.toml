@@ -124,7 +124,7 @@ version = "4.1.1"
 deps = ["Ipopt", "JuMP"]
 git-tree-sha1 = "12e3034e0d80a5fbd386ce6410bb449a0dd89af2"
 repo-rev = "master"
-repo-url = "https://github.com/Libbum/DICE.jl"
+repo-url = "https://github.com/possibleplanets/DICE.jl"
 uuid = "5657f6ae-35f0-11e9-2928-efd53eec249b"
 version = "0.2.0"
 
