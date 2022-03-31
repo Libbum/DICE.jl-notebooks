@@ -122,7 +122,7 @@ version = "4.1.1"
 
 [[DICE]]
 deps = ["Ipopt", "JuMP"]
-git-tree-sha1 = "12e3034e0d80a5fbd386ce6410bb449a0dd89af2"
+git-tree-sha1 = "4c647ec9e6c2b06f96a9ea34e0cfa758ff31a3fe"
 repo-rev = "master"
 repo-url = "https://github.com/possibleplanets/DICE.jl"
 uuid = "5657f6ae-35f0-11e9-2928-efd53eec249b"
