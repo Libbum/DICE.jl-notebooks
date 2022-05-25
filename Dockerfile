@@ -54,12 +54,13 @@ RUN julia -e 'import Pkg; Pkg.add("IJulia"); using IJulia'
 
 WORKDIR "${HOME}"
 
-#RUN git clone https://github.com/Libbum/DICE.jl-notebooks.git
+COPY Manifest.toml Project.toml ./
 
-# Patched with updated dependencies:
-RUN git clone https://github.com/possibleplanets/DICE.jl-notebooks.git 
+RUN julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate(); Pkg.precompile();'
 
-RUN cd DICE.jl-notebooks && \
-    julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate(); Pkg.precompile();'
+RUN rmdir work
+COPY 2013 2013
+COPY 2016 2016
+COPY GAMS GAMS
 
 ENV DOCKER_STACKS_JUPYTER_CMD=lab
