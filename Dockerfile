@@ -5,6 +5,10 @@
 # This Docker has been tested on x86 and ARM.
 # Originally adapted from: https://github.com/jupyter/docker-stacks/blob/master/datascience-notebook/Dockerfile
 
+# Depends on:
+# https://github.com/jupyter/docker-stacks/blob/master/base-notebook/Dockerfile
+# https://github.com/jupyter/docker-stacks/blob/master/minimal-notebook/Dockerfile
+
 FROM "jupyter/minimal-notebook"
 
 USER root
